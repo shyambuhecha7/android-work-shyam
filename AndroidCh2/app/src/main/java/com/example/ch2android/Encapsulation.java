@@ -33,3 +33,14 @@ class ReadClass1 {
     }
 }
 //write only
+class WriteOnly {
+    private int number = 5;
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+    public static void main(String[] args) {
+        WriteOnly write = new WriteOnly();
+        write.setNumber(10);
+    }
+}
