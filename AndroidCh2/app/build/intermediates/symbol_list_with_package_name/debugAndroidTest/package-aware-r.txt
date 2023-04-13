@@ -1,3 +1,0 @@
-com.example.ch2android.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
