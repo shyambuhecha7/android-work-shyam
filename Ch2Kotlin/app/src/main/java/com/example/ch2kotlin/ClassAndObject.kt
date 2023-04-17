@@ -38,6 +38,27 @@ class Employee {
     }
 }
 
+class Student(var rollNumber: Int, var name: String, var stream: String, var college: String ) {
+
+
+    init {
+
+    }
+    constructor(rollNumber: Int, name: String) : this(rollNumber,name,"Computer","GECR") {
+
+    }
+
+    constructor(name: String, stream: String) : this(1,name,stream,"GECR") {
+
+    }
+
+    constructor(name: String) : this(1, name," ", "") {
+      this.name = name
+
+    }
+
+}
+
 fun main() {
     var firstEmployee = Employee("Raj")
     firstEmployee.employeeId
