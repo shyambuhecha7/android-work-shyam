@@ -1,6 +1,33 @@
 package com.example.ch2kotlin
 
-class VisibilityModifiers {
+fun main() {
+    val extendVisibilityModifier = ExtendVisibilityModifier()
+    extendVisibilityModifier.test()
+}
+open class VisibilityModifiers {
+
+    public var one = 1
+    private var two = 2
+    protected var three = 3
+    internal var four = 4
+}
+
+class ExtendVisibilityModifier : VisibilityModifiers() {
+    fun test() {
+        println(one)
+      //  println(two) private not access
+        println(three)
+        println(four)
+    }
+}
+
+
+class Sample private constructor(name: String) {
+
+}
+
+class VisibilityMethods {
+
     public fun publicMethod() {
         println("Visible everyware")
     }
@@ -16,8 +43,4 @@ class VisibilityModifiers {
     protected fun protectedMethod() {
 
     }
-}
-
-class Sample private constructor(name: String) {
-
 }
