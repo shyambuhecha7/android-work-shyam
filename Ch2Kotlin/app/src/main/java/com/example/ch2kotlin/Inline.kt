@@ -31,3 +31,4 @@ value class Name(val _name: String) {
         println("Hello $_name")
     }
 }
+//iniline type

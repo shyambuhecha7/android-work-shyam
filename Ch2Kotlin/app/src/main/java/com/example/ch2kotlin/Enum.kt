@@ -49,5 +49,15 @@ fun main() {
     for (element in Week.values()) {
         println("${element.ordinal} = ${element.name} - ${element.number}")
     }
-}
 
+    OuterEnum.InnerEnum.MEDIUM
+
+}
+enum class OuterEnum {
+    ;
+
+    abstract fun enumFunction()
+    enum class InnerEnum {
+        SMALL,MEDIUM,LARGE
+    }
+}

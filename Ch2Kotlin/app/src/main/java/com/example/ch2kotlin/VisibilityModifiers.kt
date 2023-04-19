@@ -22,6 +22,12 @@ class ExtendVisibilityModifier : VisibilityModifiers() {
 }
 
 
+
+//wrapper
+//type cast vs type conversion java
+
+
+
 class Sample private constructor(name: String) {
 
 }

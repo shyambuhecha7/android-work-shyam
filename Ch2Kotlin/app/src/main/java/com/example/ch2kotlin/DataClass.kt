@@ -45,7 +45,11 @@ fun main() {
 
     //
     val person3 = Person1("Shyam",21)
-    println(person1 == person3)
+    println(person1 === person3)
+
+
+
+
 }
 
 
