@@ -9,7 +9,6 @@ fun main() {
     println(numbers.groupingBy { it.first() }.eachCount())
 
 
-
 }
 
-//
+
