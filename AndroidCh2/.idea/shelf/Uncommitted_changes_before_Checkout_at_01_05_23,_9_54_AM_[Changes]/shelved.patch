@@ -1,0 +1,688 @@
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionTransformationOperations.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionTransformationOperations.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionTransformationOperations.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionTransformationOperations.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionTransformationOperations.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionTransformationOperations.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionTransformationOperations.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val numbers = setOf<Int>(1, 2, 3, 4, 5)
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Sequences.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Sequences.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Sequences.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Sequences.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Sequences.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Sequences.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Sequences.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ class Sequences {
+ }
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Range.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Range.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Range.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Range.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Range.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Range.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Range.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val value = 3
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ConstructingCollections.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ConstructingCollections.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ConstructingCollections.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ConstructingCollections.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ConstructingCollections.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ConstructingCollections.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ConstructingCollections.kt	
+@@ -1,2 +1,2 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatelliteImpl.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatelliteImpl.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatelliteImpl.kt	
+@@ -1,5 +1,5 @@
+-package com.example.androidkotlin.Rocket.SateliteLaunch
+-import com.example.androidkotlin.Rocket.RocketStatus
++package com.example.androidkotlin.rocket.satelitelaunch
++import com.example.androidkotlin.rocket.rocketlaunch.RocketStatus
+ 
+ class LaunchSatelliteImpl() : LaunchSatellite {
+     var distanceInSpace: Long = 0
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1651d795-19f8-4f64-8694-ff641334db41\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Launch.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchRocket.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchSatelite.kt\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2P0E0l1M9ejynlk6t5riySmKSJx\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"cidr.known.project.marker\": \"true\",\n    \"settings.editor.selected.configurable\": \"AndroidSdkUpdater\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1651d795-19f8-4f64-8694-ff641334db41\" name=\"Changes\" comment=\"\" />\n      <created>1682585378129</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1682585378129</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,21 +5,40 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1651d795-19f8-4f64-8694-ff641334db41" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Launch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchRocket.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchSatelite.kt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/practice/Practice.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/AggregateOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/AggregateOperations.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionTransformationOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionTransformationOperations.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionWriteOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionWriteOperations.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionsBasic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionsBasic.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ConstructingCollections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ConstructingCollections.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/FilterCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/FilterCollection.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Grouping.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Grouping.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Ordering.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Ordering.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/PlusMinus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/PlusMinus.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Range.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetrievebyPosition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetrievebyPosition.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetriveCollectionPart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetriveCollectionPart.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ScopeFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ScopeFunction.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Sequences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Sequences.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/LaunchRocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/LaunchRocket.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/Rocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/Rocket.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketController.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketControllerInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketControllerInterface.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsImpl.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsInterface.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStatus.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterface.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterfaceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterfaceImpl.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatellite.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatelliteImpl.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/Satellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/Satellite.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteDetails.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteLanchingDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteLanchingDetails.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,6 +60,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.cidr.known.project.marker": "true",
+     "cidr.known.project.marker": "true",
++    "last_opened_file_path": "/Users/shyam/Documents/android_work_shyam/AndroidCh2",
+     "settings.editor.selected.configurable": "AndroidSdkUpdater"
+   }
+ }]]></component>
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatellite.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatellite.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatellite.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatellite.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatellite.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/LaunchSatellite.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/LaunchSatellite.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket.SateliteLaunch
++package com.example.androidkotlin.rocket.satelitelaunch
+ interface LaunchSatellite {
+     fun thrustRocket()
+     fun rocketPowerAscent()
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/Satellite.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/Satellite.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/Satellite.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/Satellite.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/Satellite.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/Satellite.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/Satellite.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket.SateliteLaunch
++package com.example.androidkotlin.rocket.satelitelaunch
+ 
+ class Satellite {
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteLanchingDetails.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteLanchingDetails.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteLanchingDetails.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteLanchingDetails.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteLanchingDetails.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteLanchingDetails.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteLanchingDetails.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket.SateliteLaunch
++package com.example.androidkotlin.rocket.satelitelaunch
+ 
+ data class SatelliteLanchingDetails(val launchDate: String, val launchingArea: String, val deplaymentLocation: String)
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteDetails.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteDetails.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteDetails.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteDetails.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteDetails.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/SateliteLaunch/SatelliteDetails.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/satelitelaunch/SatelliteDetails.kt	
+@@ -1,3 +1,3 @@
+-package com.example.androidkotlin.Rocket.SateliteLaunch
++package com.example.androidkotlin.rocket.satelitelaunch
+ 
+ data class SatelliteDetails(val satelliteName: String,val launncherCompany:String,val country: String) {}
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStatus.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStatus.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStatus.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStatus.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStatus.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStatus.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStatus.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ 
+ enum class RocketStatus {
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketController.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketController.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketController.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketController.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketController.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketController.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketController.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ class RocketController() : RocketControllerInterface {
+     override fun startRocketLaunch() {
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterfaceImpl.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterfaceImpl.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterfaceImpl.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterfaceImpl.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterfaceImpl.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterfaceImpl.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterfaceImpl.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ class RocketStructureInterfaceImpl() : RocketStructureInterface {
+     override fun presentRocketStructure() {
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterface.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterface.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterface.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterface.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterface.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketStructureInterface.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketStructureInterface.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ interface RocketStructureInterface {
+     fun presentRocketStructure()
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketControllerInterface.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketControllerInterface.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketControllerInterface.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketControllerInterface.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketControllerInterface.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketControllerInterface.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketControllerInterface.kt	
+@@ -1,10 +1,15 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ interface RocketControllerInterface {
+     fun startRocketLaunch()
++
+     fun targetReach(reach: Boolean)
++
+     fun startIgnition()
++
+     fun rocketBoostersBurn()
++
+     fun rocketLiftOff()
++
+     fun heightTravel()
+ }
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionWriteOperations.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionWriteOperations.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionWriteOperations.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionWriteOperations.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionWriteOperations.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/CollectionWriteOperations.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/CollectionWriteOperations.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val listOfNumbers = mutableListOf<Int>(1, 2, 3, 4, 5)
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/LaunchRocket.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/LaunchRocket.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/LaunchRocket.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/LaunchRocket.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/LaunchRocket.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/LaunchRocket.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/LaunchRocket.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ class LaunchRocket() {
+     val ignition: Boolean
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/Rocket.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/Rocket.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/Rocket.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/Rocket.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/Rocket.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/Rocket.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/Rocket.kt	
+@@ -1,9 +1,11 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket
+ 
+-import com.example.androidkotlin.Rocket.SateliteLaunch.LaunchSatellite
+-import com.example.androidkotlin.Rocket.SateliteLaunch.LaunchSatelliteImpl
+-import com.example.androidkotlin.Rocket.SateliteLaunch.SatelliteDetails
+-import com.example.androidkotlin.Rocket.SateliteLaunch.SatelliteLanchingDetails
++import com.example.androidkotlin.rocket.rocketlaunch.RocketController
++import com.example.androidkotlin.rocket.rocketlaunch.RocketControllerInterface
++import com.example.androidkotlin.rocket.satelitelaunch.LaunchSatellite
++import com.example.androidkotlin.rocket.satelitelaunch.LaunchSatelliteImpl
++import com.example.androidkotlin.rocket.satelitelaunch.SatelliteDetails
++import com.example.androidkotlin.rocket.satelitelaunch.SatelliteLanchingDetails
+ 
+ typealias details = SatelliteDetails
+ typealias  launchDetails = SatelliteLanchingDetails
+@@ -28,6 +30,7 @@
+     rocket.targetReach(true)
+ 
+     val satelliteDetails: details = SatelliteDetails("ISRO-X", "ISRO", "INDIA")
++
+     val satelliteLanchingDetails: launchDetails =
+         SatelliteLanchingDetails("15-Aug-2023", "Ahamdabad ISRO", "Earth Orbit")
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Ordering.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Ordering.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Ordering.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Ordering.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Ordering.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Ordering.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Ordering.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val numbers = listOf<String>("one", "two", "three", "four")
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.androidkotlin\n\ndata class UserModel(var username: String, var profileImg: Int) {\n\n}\n//data class with defalult value\ndata class WithDefaultValue(var id: Int = 1, val name: String = \"Shyam\") {\n\n}\n//property declare in class body\nclass ProfileModel(val name: String) {\n    var userImg: Int = 0\n}\n\ndata class StudentProfile(val name: String,val surname: String, val city: String) {\n\n}\ndata class Person1(val name: String, val age: Int) {\n\n}\n\nfun main() {\n    val userModel = UserModel(\"User@123\",1)\n    println(userModel.username)\n    println(userModel.profileImg)\n\n    //Data classes and destructuring declarations\n    val userID = StudentProfile(\"Shyam\",\"Buhecha\",\"Ahmdabad\")\n\n    //Creating two variables using  destructing declaration\n    var(name,surname) = userID\n\n    println(\"UserName: $name \\n Surname: $surname\")\n\n    //copy()\n    val person1 = Person1(\"Shyam\",21)\n    //the copy() function is a built-in function that is used to create\n    // a new object that is a copy of the original object with some\n    // or all of its properties modified.\n    val person2 = person1.copy(\"Raj\")\n    println(\"name : ${person2.name} age : ${person2.age}\")\n    //component\n    println(person1.component1())\n    println(person1.component2())\n\n    //\n    val person3 = Person1(\"Shyam\",21)\n    println(person1 === person3)\n\n\n\n\n}\n\n\n
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/DataClass.kt	
+@@ -12,7 +12,7 @@
+     var userImg: Int = 0
+ }
+ 
+-data class StudentProfile(val name: String,val surname: String, val city: String) {
++data class StudentProfile(val name: String, val surname: String, val city: String) {
+ 
+ }
+ data class Person1(val name: String, val age: Int) {
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.androidkotlin\n\nclass Exception {\n    /*\n    Exception : all exeception in java inharit Throwable class\n     */\n}\n\nfun main() {\n\n    var result = 10/1\n    println(result)\n\n\n    try {\n        var result = 10/0\n        println(result)\n    }catch (e : Throwable) {\n        println(\"Exeption is : $e\")\n    }\n\n    try {\n        var array = arrayOf(1,2,3)\n        println(array[7])\n    }catch (exception : Throwable) {\n        println(\"Exception id : $exception\")\n    }finally {\n        println(\"always execute\")\n    }\n\n    fun showError() {\n        if(10<0) {\n            throw Exception(\"zero is not greter than 10\")\n        }\n\n    }\n\n    showError()\n\n    var b: String? = null\n\n    println(b)\n\n\n}\n\n
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Exception.kt	
+@@ -40,7 +40,5 @@
+     var b: String? = null
+ 
+     println(b)
+-
+-
+ }
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsImpl.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsImpl.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsImpl.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsImpl.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsImpl.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsImpl.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsImpl.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ class RocketDetailsImpl() : RocketDetailsInterface {
+     override fun showRocketDetails(
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsInterface.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsInterface.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsInterface.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsInterface.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsInterface.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Rocket/RocketDetailsInterface.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/rocket/rocketlaunch/RocketDetailsInterface.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Rocket
++package com.example.androidkotlin.rocket.rocketlaunch
+ 
+ interface RocketDetailsInterface {
+     fun showRocketDetails(rocketName: String, rocketModel: String, rocketLanchDate: String)
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/AggregateOperations.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/AggregateOperations.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/AggregateOperations.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/AggregateOperations.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/AggregateOperations.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/AggregateOperations.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/AggregateOperations.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ class AggregateOperations {}
+ 
+@@ -12,6 +12,4 @@
+     println(numbers.count())
+ 
+     println(numbers.reduce { sum, number -> number + sum })
+-    println()
+-
+-}
+\ No newline at end of file
++ }
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.androidkotlin\n\nclass ClassAndObject {\n\n}\n\n//empty class\nclass Empty\n\nclass Demo(firstName : String) {\n    init {\n        println(\"First initializer block that prints $firstName\")\n    }\n\n}\nclass Person(var firstName: String) {\n\n}\n// class Customer public @inject constructor(name: String) {\n//\n//}\n//secondary constructor\nclass Employee {\n    var name : String\n    var employeeId : Int\n\n    constructor(name: String) {\n        this.name = name\n        this.employeeId = 1\n    }\n    constructor(name: String, employeeId: Int) {\n        this.name = name\n        this.employeeId = employeeId\n    }\n    init {\n        println(\"Initialize\")\n    }\n}\n\nclass Student(var rollNumber: Int, var name: String, var stream: String, var college: String ) {\n\n\n    init {\n\n    }\n    constructor(rollNumber: Int, name: String) : this(rollNumber,name,\"Computer\",\"GECR\") {\n\n    }\n\n    constructor(name: String, stream: String) : this(1,name,stream,\"GECR\") {\n\n    }\n\n\n    constructor(name: String) : this(1, name,\"\", \"\") {\n      this.name = name\n    }\n\n}\n\nclass Mobile() {\n    constructor(model: String): this(){\n\n    }\n}\n\nfun main() {\n    var firstEmployee = Employee(\"Raj\")\n    firstEmployee.employeeId\n    println(firstEmployee.employeeId)\n    println(firstEmployee.name)\n\n    var models = Mobile(\"name\")\n\n    val model2 = Mobile()\n}
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/ClassAndObject.kt	
+@@ -7,59 +7,63 @@
+ //empty class
+ class Empty
+ 
+-class Demo(firstName : String) {
++class Demo(firstName: String) {
+     init {
+         println("First initializer block that prints $firstName")
+     }
+ 
+ }
++
+ class Person(var firstName: String) {
+ 
+ }
++
+ // class Customer public @inject constructor(name: String) {
+ //
+ //}
+ //secondary constructor
+ class Employee {
+-    var name : String
+-    var employeeId : Int
++    var name: String
++    var employeeId: Int
+ 
+     constructor(name: String) {
+         this.name = name
+         this.employeeId = 1
+     }
++
+     constructor(name: String, employeeId: Int) {
+         this.name = name
+         this.employeeId = employeeId
+     }
++
+     init {
+         println("Initialize")
+     }
+ }
+ 
+-class Student(var rollNumber: Int, var name: String, var stream: String, var college: String ) {
++class Student(var rollNumber: Int, var name: String, var stream: String, var college: String) {
+ 
+-
+     init {
+ 
+     }
+-    constructor(rollNumber: Int, name: String) : this(rollNumber,name,"Computer","GECR") {
++
++    constructor(rollNumber: Int, name: String) : this(rollNumber, name, "Computer", "GECR") {
+ 
+     }
+ 
+-    constructor(name: String, stream: String) : this(1,name,stream,"GECR") {
++    constructor(name: String, stream: String) : this(1, name, stream, "GECR") {
+ 
+     }
+ 
+ 
+-    constructor(name: String) : this(1, name,"", "") {
+-      this.name = name
++    constructor(name: String) : this(1, name, "", "") {
++        this.name = name
+     }
+ 
+ }
+ 
+ class Mobile() {
+-    constructor(model: String): this(){
++    constructor(model: String) : this() {
+ 
+     }
+ }
+@@ -73,4 +77,29 @@
+     var models = Mobile("name")
+ 
+     val model2 = Mobile()
+-}
+\ No newline at end of file
++
++    val worker = Workers("john",1)
++
++    var a = Alpha("IT")
++}
++class Workers {
++    var name: String
++    var id: Int
++
++    constructor(name: String,id: Int) {
++        this.name =name
++        this.id = id
++    }
++    constructor(name: String): this(name, id=2)
++}
++
++open class Office(officeType: String, officeNo: Int) {
++    constructor(officeNo: Int) : this(officeType = "",officeNo)
++}
++class Alpha : Office {
++    constructor(officeType: String) : super(officeType,2)
++}
++
++class Alcohole() {
++
++}
+Index: ../Ch2Kotlin/app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n    xmlns:tools=\"http://schemas.android.com/tools\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    tools:context=\".MainActivity\">\n\n    <TextView\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:text=\"Hello World!\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\" />\n\n</androidx.constraintlayout.widget.ConstraintLayout>
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/res/layout/activity_main.xml b/../Ch2Kotlin/app/src/main/res/layout/activity_main.xml
+--- a/../Ch2Kotlin/app/src/main/res/layout/activity_main.xml	
++++ b/../Ch2Kotlin/app/src/main/res/layout/activity_main.xml	
+@@ -1,18 +1,23 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    tools:context=".MainActivity">
++    android:orientation="vertical"
++    android:layout_gravity="center"
++    tools:context="com.example.androidkotlin.MainActivity">
+ 
+-    <TextView
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Hello World!"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
++   <Button
++       android:layout_width="match_parent"
++       android:layout_height="wrap_content"
++       android:id="@+id/btn"
++       android:layout_margin="12dp"
++       android:textColor="@color/white"
++       android:text="submit"
++       android:padding="8dp"
++       android:textSize="24sp"
++       />
++
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++</LinearLayout>
+\ No newline at end of file
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ScopeFunction.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ScopeFunction.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ScopeFunction.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ScopeFunction.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ScopeFunction.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/ScopeFunction.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/ScopeFunction.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     var listOfNumbers = listOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
+@@ -21,6 +21,12 @@
+     }
+ 
+     //apply
++    var student2 = Student(2,"Darshan").apply {
++        rollNo = 3
++        name = "Subham"
++    }
++    println(student2.name)
++    println(student2.rollNo)
+ 
+ 
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetriveCollectionPart.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetriveCollectionPart.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetriveCollectionPart.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetriveCollectionPart.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetriveCollectionPart.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetriveCollectionPart.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetriveCollectionPart.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ class RetriveCollectionPart {
+ }
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetrievebyPosition.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetrievebyPosition.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetrievebyPosition.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetrievebyPosition.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetrievebyPosition.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/RetrievebyPosition.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/RetrievebyPosition.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ class RetrievebyPosition {
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Grouping.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Grouping.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Grouping.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Grouping.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Grouping.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/Grouping.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/Grouping.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val numbers = listOf<String>("one", "two", "three", "four")
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.androidkotlin\n\nfun main() {\n\n\n}\n\n\n\n\n\n\n\n\n\n
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/InilineFunctions.kt	
+@@ -2,9 +2,12 @@
+ 
+ fun main() {
+ 
++myName()
+ 
+ }
+-
++public inline fun myName() {
++    println("My name is shyam")
++}
+ 
+ 
+ 
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/FilterCollection.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/FilterCollection.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/FilterCollection.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/FilterCollection.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/FilterCollection.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/FilterCollection.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/FilterCollection.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ class FilterCollection {
+ }
+Index: ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/PlusMinus.kt
+===================================================================
+diff --git a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/PlusMinus.kt b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/PlusMinus.kt
+rename from ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/PlusMinus.kt
+rename to ../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/PlusMinus.kt
+--- a/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/Collections/PlusMinus.kt	
++++ b/../Ch2Kotlin/app/src/main/java/com/example/androidkotlin/collections/PlusMinus.kt	
+@@ -1,4 +1,4 @@
+-package com.example.androidkotlin.Collections
++package com.example.androidkotlin.collections
+ 
+ fun main() {
+     val number = listOf<String>("one", "two", "three", "four")
