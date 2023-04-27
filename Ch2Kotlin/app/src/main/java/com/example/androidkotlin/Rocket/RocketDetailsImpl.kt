@@ -1,4 +1,4 @@
-package com.example.ch2kotlin.Rocket
+package com.example.androidkotlin.Rocket
 
 class RocketDetailsImpl() : RocketDetailsInterface {
     override fun showRocketDetails(

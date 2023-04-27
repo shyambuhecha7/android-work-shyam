@@ -1,6 +1,6 @@
-package com.example.ch2kotlin.Rocket
+package com.example.androidkotlin.Rocket
 
-class Launch() {
+class LaunchRocket() {
     val ignition: Boolean
         get() {
             return true
@@ -20,5 +20,6 @@ class Launch() {
         get() {
             return 1000
         }
+
 
 }

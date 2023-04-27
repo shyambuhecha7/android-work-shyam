@@ -1,4 +1,4 @@
-package com.example.ch2kotlin.Rocket.SateliteLaunch
+package com.example.androidkotlin.Rocket.SateliteLaunch
 
 data class SatelliteLanchingDetails(val launchDate: String, val launchingArea: String, val deplaymentLocation: String)
 

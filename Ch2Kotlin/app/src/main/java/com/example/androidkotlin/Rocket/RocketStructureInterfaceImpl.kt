@@ -1,4 +1,4 @@
-package com.example.ch2kotlin.Rocket
+package com.example.androidkotlin.Rocket
 
 class RocketStructureInterfaceImpl() : RocketStructureInterface {
     override fun presentRocketStructure() {

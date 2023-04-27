@@ -1,4 +1,4 @@
-package com.example.ch2kotlin
+package com.example.androidkotlin
 
 
 //data class RocketInformation(val rocketName: String,val rocketModel: String,val rocketLanchDate: String)
