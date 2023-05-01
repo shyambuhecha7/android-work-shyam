@@ -59,6 +59,7 @@ class Student(var rollNumber: Int, var name: String, var stream: String, var col
 }
 
 class Mobile() {
+
     constructor(model: String): this(){
 
     }
@@ -73,4 +74,6 @@ fun main() {
     var models = Mobile("name")
 
     val model2 = Mobile()
+
+    val lazyValue: Int by lazy { println("init");  10 }
 }
