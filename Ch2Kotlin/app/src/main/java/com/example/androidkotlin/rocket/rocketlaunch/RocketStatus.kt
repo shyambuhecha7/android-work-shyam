@@ -1,6 +1,5 @@
 package com.example.androidkotlin.rocket.rocketlaunch
 
-
 enum class RocketStatus {
     Nothing,
     StartLaunching,
@@ -8,10 +7,6 @@ enum class RocketStatus {
     SpeedMode,
     SupperMode,
     RocketLaunched,
-    SatelliteLaunched
-    ;
-    fun rocketStatus(status: RocketStatus) {
-        println("Rocket Status: $status")
-    }
-
+    SatelliteLaunched,
+    RocketLaunchToPlanet
 }

@@ -1,11 +1,10 @@
 package com.example.androidkotlin.rocket.solarsystem
 
-sealed class Planets {
-    data class Mercury(val planetName: String, var distance: Long, val angle: Double)
-    data class Venus(val planetName: String, var distance: Long, val angle: Double)
-    data class Earth(val planetName: String, var distance: Long, val angle: Double)
-    data class Mars(val planetName: String, var distance: Long, val angle: Double)
-    data class Jupiter(val planetName: String, var distance: Long, val angle: Double)
-    data class Saturn(val planetName: String, var distance: Long, val angle: Double)
-    data class Neptune(val planetName: String, var distance: Long, val angle: Double)
+enum class Planets(val nameOfPlanet: String, var distanceOfPlanet: Long, val launchingAngleOfRocket: Double) {
+    Mercury("Mercury",2000,60.0),
+    Venus("Venus",1000,80.28),
+    Mars("Mars",1200,80.2),
+    Jupiter("Jupiter",2000,60.0),
+    Saturn("Saturn",3000,52.8),
+    Neptune("Neptune",4000,45.0)
 }
