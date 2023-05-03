@@ -1,5 +1,5 @@
 package com.example.androidkotlin.rocket.satelitelaunch
-interface LaunchSatellite {
+interface LaunchOfSatellite {
     fun thrustRocket()
     fun rocketPowerAscent()
     fun rocketStaging()

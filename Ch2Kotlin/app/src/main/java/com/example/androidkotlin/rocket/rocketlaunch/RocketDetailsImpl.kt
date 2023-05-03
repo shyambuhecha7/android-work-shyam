@@ -4,8 +4,8 @@ class RocketDetailsImpl() : RocketDetailsInterface {
     override fun showRocketDetails(
         rocketName: String,
         rocketModel: String,
-        rocketLanchDate: String,
+        rocketLaunchDate: String,
     ) {
-        println(" Rocket Name: $rocketName \n Rocket Model: $rocketModel \n Rocket Launch Date: $rocketLanchDate")
+        println(" Rocket Name: $rocketName \n Rocket Model: $rocketModel \n Rocket Launch Date: $rocketLaunchDate")
     }
 }

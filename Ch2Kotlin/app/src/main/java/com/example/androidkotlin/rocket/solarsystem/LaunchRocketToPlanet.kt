@@ -5,5 +5,4 @@ package com.example.androidkotlin.rocket.solarsystem
     fun calculateTimeOfSpaceTravel(distanceOfPlanetsFromEarth: Planets): Double
 
     fun launchRocketTo(nameOfTargetPlanet: Planets)
-
 }

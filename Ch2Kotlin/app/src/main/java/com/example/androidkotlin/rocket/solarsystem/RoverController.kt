@@ -1,6 +1,6 @@
 package com.example.androidkotlin.rocket.solarsystem
 
-open class RoverController: RoverControlInterface {
+class RoverController: RoverControlInterface {
     var totalDistance = 0
     override fun moveLeft(distance: Int) {
         totalDistance += distance
@@ -25,4 +25,5 @@ open class RoverController: RoverControlInterface {
     override fun totalTravelDistance() {
         println("Rover travel total distance: $totalDistance")
     }
+
 }

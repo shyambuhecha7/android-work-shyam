@@ -10,6 +10,7 @@ open class RocketLauncherFromEarth : LaunchRocketToPlanet {
 
     override fun launchRocketTo(nameOfTargetPlanet: Planets) {
         println("Target: $nameOfTargetPlanet")
+        nameOfTargetPlanet.distanceOfPlanet
         calculateTimeOfSpaceTravel(nameOfTargetPlanet).let { println(it)}
     }
 }

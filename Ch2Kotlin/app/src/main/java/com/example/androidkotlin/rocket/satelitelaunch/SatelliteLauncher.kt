@@ -3,43 +3,39 @@ package com.example.androidkotlin.rocket.satelitelaunch
 import com.example.androidkotlin.rocket.fueltank.FuelTankController
 import com.example.androidkotlin.rocket.rocketlaunch.RocketStatus
 
-class LaunchSatelliteImpl : LaunchSatellite, FuelTankController() {
+open class SatelliteLauncher(): LaunchOfSatellite, FuelTankController() {
 
     private fun travelDistance(distanceInSpace: Long) {
-        println("Travel Distance: $distanceInSpace")
+       val fuelCapacity = (distanceInSpace * 100) / 5000
+       println("Fuel Capacity: ${fuelTankCapacity-fuelCapacity}")
     }
 
     override fun thrustRocket() {
-        fuelTankCapacity = 100
         travelDistance(0)
         println("Launching.....")
         rocketPowerAscent()
     }
 
     override fun rocketPowerAscent() {
-        fuelTankCapacity = 70
-        travelDistance(5)
+        travelDistance(100)
         println("Burn fuel...")
         rocketStaging()
     }
 
     override fun rocketStaging() {
-        fuelTankCapacity = 40
-        travelDistance(50)
+        travelDistance(2000)
         println("release Body Tube... ")
         rocketUpperStageBurn()
     }
 
     override fun rocketUpperStageBurn() {
-        travelDistance(70)
+        travelDistance(2500)
         println("Nozzle Burn... ")
         engineCutOut()
-        fuelTankCapacity = 20
     }
 
     override fun engineCutOut() {
-        travelDistance(100)
-        fuelTankCapacity = 0
+        travelDistance(3000)
         println("release Engine...")
         println("Status: ${RocketStatus.SatelliteLaunched}")
     }

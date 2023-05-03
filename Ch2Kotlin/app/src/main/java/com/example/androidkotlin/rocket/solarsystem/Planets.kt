@@ -6,5 +6,5 @@ enum class Planets(val nameOfPlanet: String, var distanceOfPlanet: Long, val lau
     Mars("Mars",1200,80.2),
     Jupiter("Jupiter",2000,60.0),
     Saturn("Saturn",3000,52.8),
-    Neptune("Neptune",4000,45.0)
+    Neptune("Neptune",5000,45.0)
 }

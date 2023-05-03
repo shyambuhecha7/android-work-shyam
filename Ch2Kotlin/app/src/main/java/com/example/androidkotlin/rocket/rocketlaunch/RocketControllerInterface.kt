@@ -6,5 +6,8 @@ interface RocketControllerInterface {
     fun startIgnition()
     fun rocketBoostersBurn()
     fun rocketLiftOff()
-    fun heightTravel()
+    fun rocketEnterInSpace()
+
+    fun travelDistance(travelDistance: Double)
+
 }
