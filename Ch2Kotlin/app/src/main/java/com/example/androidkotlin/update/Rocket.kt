@@ -1,16 +1,16 @@
-package com.example.androidkotlin.rocket.update
+package com.example.androidkotlin.update
 
-abstract class Rocket(
+open class Rocket(
     val name: String,
-    var velocity: Double,
+    var velocity: Int,
     var fuelCapacity: Double,
     val countdownTime: Int,
     val targetDistance: Double,
     val rocketType: RocketType
 ) : RocketControllerInterface {
-    var fuelLevel: Double = 100.0
-    var timeInSpace: Double = 10.0
-    var distanceTraveled: Double = 2000.0
+    var fuelLevel: Double = 0.0
+    var timeInSpace: Double = 5.0
+    var distanceTraveled: Double = 0.0
     var isEngineIgnited: Boolean = false
 
     fun addFuel(amount: Double) {
@@ -57,17 +57,27 @@ abstract class Rocket(
         }
     }
 
-    fun calculateTravelStats() {
+    private fun calculateTravelStats() {
         val timeTaken = timeInSpace
         val averageSpeed = distanceTraveled / timeTaken
         println("$name traveled a distance of $distanceTraveled km in $timeTaken seconds at an average speed of $averageSpeed km/s.")
     }
 
-    abstract fun deploySatellite()
-
-
     private fun isCloseSignalReceived(): Boolean {
-        // Logic to check for abort signal goes here.
         return false
+    }
+
+    override fun igniteEngine() {
+        println("Igniting engines for $name.")
+        isEngineIgnited = true
+    }
+
+    override fun shutdownEngine() {
+        println("Shutting down engines for $name.")
+        isEngineIgnited = false
+    }
+
+    override fun deploySatellite() {
+        println("Deploying satellite from $name.")
     }
 }

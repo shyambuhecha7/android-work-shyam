@@ -1,4 +1,4 @@
-package com.example.androidkotlin.rocket.update
+package com.example.androidkotlin.update
 
 enum class RocketType(val fuelConsumptionRate: Double, val payloadCapacity: Double) {
     FALCON_9(60.0, 2000.0),
