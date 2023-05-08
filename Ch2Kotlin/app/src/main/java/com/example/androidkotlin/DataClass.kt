@@ -25,7 +25,7 @@ fun main() {
     println(userModel.profileImg)
 
     //Data classes and destructuring declarations
-    val userID = StudentProfile("Shyam","Buhecha","Ahmdabad")
+    val userID = StudentProfile("Shyam","Buhecha","Ahamdabad")
 
     //Creating two variables using  destructing declaration
     var(name,surname) = userID
@@ -46,10 +46,4 @@ fun main() {
     //
     val person3 = Person1("Shyam",21)
     println(person1 === person3)
-
-
-
-
 }
-
-

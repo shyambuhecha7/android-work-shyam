@@ -2,9 +2,9 @@ package com.example.androidkotlin.practice
 
 import kotlin.properties.Delegates
 
-var objecte = object {
-    fun a(){
-        println("obje")
+var objectOfCar = object {
+    fun a() {
+        println("car object")
     }
 }
 
@@ -67,7 +67,6 @@ fun main() {
 
     val name: String? = null
     name?.let { println("Hello $name") }
-
 
     val fullName = name.run { name + " Buhecha" }
     println(fullName)

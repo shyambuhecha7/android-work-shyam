@@ -8,7 +8,7 @@ referentional: ===
 fun main() {
     val value1 = 10
     val value2 = 10
-    println(value1==value2 ?: false)
+    println(value1 == value2 ?: false)
     val object1 = Equality()
     val object2 = Equality()
 
