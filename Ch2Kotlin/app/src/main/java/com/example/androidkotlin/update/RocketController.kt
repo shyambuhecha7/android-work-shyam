@@ -1,13 +1,13 @@
 package com.example.androidkotlin.update
 
-open class Rocket(
+open class RocketController(
     val name: String,
     var velocity: Int,
     var fuelCapacity: Double,
-    val countdownTime: Int,
-    val targetDistance: Double,
+    private val countdownTime: Int,
+    private val targetDistance: Double,
     val rocketType: RocketType
-) : RocketControllerInterface {
+) : ControlSystem {
     var fuelLevel: Double = 0.0
     var timeInSpace: Double = 5.0
     var distanceTraveled: Double = 0.0
@@ -25,7 +25,7 @@ open class Rocket(
         println("Countdown started for $name.")
         (countdownTime downTo 1).forEach {
             println(it)
-            Thread.sleep(1000)
+            Thread.sleep(500)
             if (isCloseSignalReceived()) {
                 println("Rocket Stop signal received. Countdown Stop.")
                 return
@@ -41,8 +41,8 @@ open class Rocket(
         println("$name launching!")
         igniteEngine()
         while (fuelLevel > 0.0 && distanceTraveled < targetDistance) {
-            val fuelConsumed = rocketType.fuelConsumptionRate * timeInSpace
-            fuelLevel -= fuelConsumed
+            fuelLevel -= rocketType.fuelConsumptionRate * timeInSpace
+
             if (fuelLevel < 0.0) {
                 fuelLevel = 0.0
             }
@@ -52,15 +52,15 @@ open class Rocket(
         }
         shutdownEngine()
         calculateTravelStats()
+
         if (distanceTraveled >= targetDistance) {
             deploySatellite()
         }
     }
 
     private fun calculateTravelStats() {
-        val timeTaken = timeInSpace
-        val averageSpeed = distanceTraveled / timeTaken
-        println("$name traveled a distance of $distanceTraveled km in $timeTaken seconds at an average speed of $averageSpeed km/s.")
+        val averageSpeed = distanceTraveled / timeInSpace
+        println("$name traveled a distance of $distanceTraveled km in $timeInSpace seconds at an average speed of $averageSpeed km/s.")
     }
 
     private fun isCloseSignalReceived(): Boolean {

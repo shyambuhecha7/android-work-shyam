@@ -1,7 +1,8 @@
 package com.example.androidkotlin.update
 
-interface RocketControllerInterface {
+interface ControlSystem {
     fun igniteEngine()
     fun shutdownEngine()
     fun deploySatellite()
+
 }
