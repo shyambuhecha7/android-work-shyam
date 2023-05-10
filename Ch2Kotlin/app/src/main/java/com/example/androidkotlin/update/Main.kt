@@ -1,7 +1,7 @@
 package com.example.androidkotlin.update
 
 fun main() {
-    val rocket = RocketController("Falcon 9",50,10.0, 2000, 2000.0, RocketType.DELTA_IV_HEAVY)
+    val rocket = RocketController("Falcon 9",50,10.0, 5, 2000.0, RocketType.DELTA_IV_HEAVY)
 
     rocket.addFuel(1500.0)
 

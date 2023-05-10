@@ -6,7 +6,7 @@ open class RocketController(
     var fuelCapacity: Double,
     private val countdownTime: Int,
     private val targetDistance: Double,
-    val rocketType: RocketType
+    private val rocketType: RocketType
 ) : ControlSystem {
     var fuelLevel: Double = 0.0
     var timeInSpace: Double = 5.0
