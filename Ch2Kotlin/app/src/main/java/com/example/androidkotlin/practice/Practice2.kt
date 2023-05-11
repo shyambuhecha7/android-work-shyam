@@ -1,3 +1,5 @@
+import com.example.androidkotlin.practice.Myclass
+
 class Practice2
 open class SystemPc(val name: String, val price: Int) {
 
@@ -30,7 +32,5 @@ fun main() {
     var numbers = listOf(2,312,15,23,76)
     println(numbers.sortedDescending())
     println(numbers.reversed())
-
-
 }
 

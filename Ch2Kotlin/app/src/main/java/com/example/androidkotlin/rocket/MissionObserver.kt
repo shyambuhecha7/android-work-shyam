@@ -1,5 +1,5 @@
 package com.example.androidkotlin.rocket
 
-interface MissionObserver {
-    fun onLaunchSuccess()
+fun interface MissionObserver {
+    fun onLaunchSuccess(): Boolean
 }

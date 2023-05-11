@@ -22,7 +22,7 @@ class RocketLaunch(private val rocket: Rocket, private val observer: LaunchObser
             }
             if (countdown > 1) {
                 observer.onLaunchAborted(
-                    LaunchResult(
+                    OnLaunchResult(
                         false,
                         "Launch aborted: countdown interrupted"
                     )
@@ -33,11 +33,11 @@ class RocketLaunch(private val rocket: Rocket, private val observer: LaunchObser
     }
 
     private fun igniteRocket() {
-        val controller = RocketController(rocket)
+        val controller = RocketController()
         controller.igniteEngines()
-        val launchResult = LaunchResult(
+        val launchResult = OnLaunchResult(
             Random.nextBoolean(),
-            if (Random.nextBoolean()) "Engine failure detected" else "No issues detected"
+            if (Random.nextBoolean()) "No issues detected" else "Engine failure detected"
         )
         launchResult.apply {
             if (!success) {
@@ -45,7 +45,7 @@ class RocketLaunch(private val rocket: Rocket, private val observer: LaunchObser
                 return
             }
         }
-        val missionController = MissionControl(Mission("Mars mission", 100))
+        val missionController = MissionControl(Mission("Mars mission", 2000))
         missionController.notifyLaunchSuccess()
     }
 }

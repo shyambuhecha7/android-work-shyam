@@ -10,8 +10,13 @@ var objectOfCar = object {
 
 data class Cup(val id: Int)
 
-class Myclass {
+open class Myclass {
     companion object
+
+    var lambda: (Int) -> Unit = { i ->
+        println("call lambda value : $i")
+    }
+
 }
  fun Myclass.Companion.printName(name: String): String {
      return name
@@ -26,6 +31,7 @@ class Myclass {
 //abstract class Sample {
 //
 //}
+
 
 class  OuterClass {
     open inner class InnerClass {
