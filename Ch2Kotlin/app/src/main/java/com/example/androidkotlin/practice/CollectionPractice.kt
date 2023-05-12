@@ -8,7 +8,6 @@ class Source {
         println("send data: $data")
     }
 }
-
 class Destination {
     fun receiveData(data: String, callBack: (String)->Unit) {
         callBack(data)
@@ -23,6 +22,7 @@ fun main() {
     val destination = Destination()
 
     destination.receiveData("Simform",source.sendData)
+
 //    for ( i in 10 downTo  2 step 2) {
 //        println(i)
 //    }
@@ -33,5 +33,6 @@ fun main() {
 
     var sequence = sequenceOf(12,21,12,32,244)
     sequence.let { println(it.asSequence()) }
+
 
 }
