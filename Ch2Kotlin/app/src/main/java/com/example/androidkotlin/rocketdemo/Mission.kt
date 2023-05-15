@@ -1,5 +1,10 @@
 package com.example.androidkotlin.rocketdemo
 
 interface Mission {
-    fun completeMission(): Boolean
+    fun startMission(massOfRocket: Float, callBack: () -> Unit)
+
+    fun rocketThrusting(force: Int)
+
+    fun completeMission(callBack: () -> Unit)
+
 }

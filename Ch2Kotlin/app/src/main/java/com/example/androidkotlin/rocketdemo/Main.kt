@@ -1,17 +1,13 @@
 package com.example.androidkotlin.rocketdemo
 
+class Main
 fun main() {
+    val rocketController = RocketController()
     val astronaut = Astronaut("Shyam")
-    val mission = RocketLaunchMission(0.7)
-    val rocket = Rocket(RocketController, astronaut)
-    val missionController = MissionControl("ISRO")
+    val missionController= MissionController("ISRO")
 
-    rocket.connectWith(missionController)
-
-    val isMissionSuccessful = rocket.startMission(mission)
-    if (isMissionSuccessful) {
-        println("Mission was successful!")
-    } else {
-        println("Mission failed.")
+    val rocket = Rocket(rocketController, astronaut, missionController)
+    rocket.missionController.startMission(50.0F){
+        astronaut.performTask(Task.PrepareForLaunch)
     }
 }
