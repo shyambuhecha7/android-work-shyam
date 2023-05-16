@@ -66,7 +66,7 @@ class Mobile() {
 }
 
 fun main() {
-    var firstEmployee = Employee("Raj")
+    val firstEmployee = Employee("Raj")
     firstEmployee.employeeId
     println(firstEmployee.employeeId)
     println(firstEmployee.name)

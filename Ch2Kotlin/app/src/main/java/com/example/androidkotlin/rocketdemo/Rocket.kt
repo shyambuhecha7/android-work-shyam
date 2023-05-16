@@ -5,6 +5,4 @@ class Rocket(
     val astronaut: Astronaut,
     val missionController: MissionController
 ) {
-
-
 }

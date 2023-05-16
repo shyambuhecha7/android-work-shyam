@@ -1,7 +1,5 @@
 package com.example.androidkotlin.rocketdemo
 
-import kotlin.random.Random
-
 open class MissionController(nameOfMissionControllerOrganization: String) : Mission,
     RocketController() {
     private var force: Float = 0.0f
@@ -10,7 +8,7 @@ open class MissionController(nameOfMissionControllerOrganization: String) : Miss
         println("Start Mission...")
         callBack()
 
-        force = massOfRocket * (9.8).toInt() //gravity
+        force = massOfRocket * (9.8).toInt()
 
         rocketThrusting((0..1000).random())
 

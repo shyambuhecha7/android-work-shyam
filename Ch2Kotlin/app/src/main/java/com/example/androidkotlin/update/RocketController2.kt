@@ -1,6 +1,6 @@
 package com.example.androidkotlin.update
 
-open class RocketController(
+open class RocketController2(
     val name: String,
     var velocity: Int,
     var fuelCapacity: Double,

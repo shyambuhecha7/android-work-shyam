@@ -37,9 +37,10 @@ fun main() {
 
     showError()
 
-    var b: String? = null
+    var b: String? = "@"
 
     println(b)
+    
 
 
 }

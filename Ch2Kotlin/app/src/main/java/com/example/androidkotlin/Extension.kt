@@ -5,6 +5,7 @@ class Extension  {
 }
 fun String.removeFirstLastChar(): String = this.substring(1,this.length-1)
 
+
 fun sum(first: Int, second: Int): Int {
     return first+second
 }
@@ -46,7 +47,10 @@ class Connection(val host: Host, val port: Int) {
         host.printConnectionString()
     }
 }
+
 fun main() {
+    //error create
+    throw Exception("Hello")
     var string = "012345678"
     println(string.removeFirstLastChar()) // remove first and last char
     println(sum(10,20))

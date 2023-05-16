@@ -131,3 +131,16 @@ enum class weeks{
 
 }
 var array = arrayOf(1,23,3)
+
+////
+//import kotlin.properties.Delegates
+//
+//class FuelSystem(var capacity: Int) {
+//    var currentFuel: Int by Delegates.vetoable(0) {_, _, newValue ->
+//        newValue <= capacity
+//    }
+//    fun addFuel(addToFuelTank: Int) {
+//        currentFuel += addToFuelTank
+//    }
+//
+//}
