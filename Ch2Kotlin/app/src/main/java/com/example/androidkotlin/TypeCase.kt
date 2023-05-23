@@ -2,7 +2,7 @@ package com.example.androidkotlin
 
 class TypeCase {
 
-    fun checType(value: Any) {
+    fun checkType(value: Any) {
         if (value is String) {
             println(value.length)
         }
@@ -29,7 +29,7 @@ fun main() {
     }
 
     var typeCaseObject = TypeCase()
-    typeCaseObject.checType("Shyam")
+    typeCaseObject.checkType("Shyam")
 
     if (strName !is String) return
 

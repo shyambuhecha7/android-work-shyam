@@ -81,10 +81,12 @@ interface work {
 //multiple
 
 interface Swimable {
+
     fun swim()
 }
 
 class SwimableImplement: Swimable {
+
     override fun swim() {
         println("Swim")
     }

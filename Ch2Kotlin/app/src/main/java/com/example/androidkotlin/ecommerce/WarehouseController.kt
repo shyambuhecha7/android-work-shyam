@@ -1,19 +1,20 @@
 package com.example.androidkotlin.ecommerce
 
-class WarehouseController: Warehouse {
+class WarehouseController : Warehouse {
 
-    private var productList =
-        mapOf("keyboard" to 1200,"Bottle" to 900,"pen" to 10)
-
-    override fun isAvailableProduct(product: String) {
-        if (productList.containsKey(product)) {
-            println("Product is Not Available...")
+    override var availableProducts: MutableMap<String, Int> = mutableMapOf()
+    override fun isAvailableProduct(productName: String) {
+        val quantity = availableProducts[productName]
+        if (quantity != null && quantity > 0) {
+            println("Product is available!")
         } else {
-            notifyToSeller()
+            println("Product is not available!")
         }
     }
 
-    override fun notifyToSeller() {
-       println("product is Available. Deliver to Buyer")
+    override fun notifyToSeller(nameOfSoldProduct: String, notify: (String) -> Unit) {
+        println("$nameOfSoldProduct is sold...")
+        notify.invoke(nameOfSoldProduct)
+        println()
     }
 }

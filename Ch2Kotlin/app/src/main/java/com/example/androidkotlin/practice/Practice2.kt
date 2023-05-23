@@ -32,5 +32,13 @@ fun main() {
     var numbers = listOf(2,312,15,23,76)
     println(numbers.sortedDescending())
     println(numbers.reversed())
+
+    val set = setOf<Int>(1,2,12,122)
+    println(set.mapIndexed { k,v -> k*v })
+    println(set.map { it*4 })
+    println(set.reduce { a, i ->  a*i})
+    println(set.sum())
+
+
 }
 

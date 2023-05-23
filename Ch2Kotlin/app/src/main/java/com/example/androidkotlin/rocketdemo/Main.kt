@@ -8,7 +8,7 @@ fun main() {
     val missionController = MissionController("ISRO")
 
     val rocket = Rocket(rocketController, astronaut, missionController)
-    rocket.missionController.startMission(50.0F) {
+    rocket.missionController.startMission(10.0F) {
         astronaut.performTask(Task.PrepareForLaunch)
     }
 }

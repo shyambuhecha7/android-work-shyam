@@ -1,14 +1,14 @@
 package com.example.androidkotlin.ecommerce
 
-class Main {
-}
-
 fun main() {
-    val deliver = Deliver()
-    val warehouse = WarehouseController()
-    val seller = Seller(deliver,warehouse)
     val buyer = Buyer()
+    val seller = Seller()
+    val productsList = mutableListOf<Product>()
 
-    val ecommerce = Ecommerce(buyer,seller,warehouse)
-    ecommerce.buyer.buyRequest("keyboard", seller)
+    seller.addProduct(Product("keyboard", 3),productsList)
+    seller.addProduct(Product("PC", 3),productsList)
+    seller.addProduct(Product("Book", 5),productsList)
+    seller.addProduct(Product("Car", 1),productsList)
+
+    buyer.buyProduct("Car",productsList)
 }

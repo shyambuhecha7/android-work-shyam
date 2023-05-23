@@ -2,7 +2,7 @@ package com.example.androidkotlin.ecommerce
 
 interface Warehouse {
 
-    fun isAvailableProduct(product: String)
-
-    fun notifyToSeller()
+    var availableProducts: MutableMap<String, Int>
+    fun isAvailableProduct(productName: String)
+    fun notifyToSeller(nameOfSoldProduct: String, notify: (String) -> Unit)
 }

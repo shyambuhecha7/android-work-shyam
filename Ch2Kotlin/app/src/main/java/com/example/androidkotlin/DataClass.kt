@@ -28,7 +28,7 @@ fun main() {
     val userID = StudentProfile("Shyam","Buhecha","Ahamdabad")
 
     //Creating two variables using  destructing declaration
-    var(name,surname) = userID
+    val (name,surname) = userID
 
     println("UserName: $name \n Surname: $surname")
 
