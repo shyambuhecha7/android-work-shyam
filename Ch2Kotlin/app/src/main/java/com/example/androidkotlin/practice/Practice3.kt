@@ -7,8 +7,13 @@ open class BaseClass(val name: String) {
     constructor() : this("Shyam")
 
     val surname = "Buhecha"
-
 }
+
+class DeriveClass(name: String):BaseClass(name) {
+
+    constructor(name: String, surname: String) : this(name)
+}
+
 class Sender {
     fun sendDataToReceiver(data: String, callBack: (String) -> Unit) {
         callBack.invoke(data)
@@ -29,6 +34,8 @@ class B : A() {
     }
 }
 fun main() {
+    val deriveClass = DeriveClass("","B")
+    println(deriveClass.surname)
     val classA = B()
     classA.add()
     val objectOfSender = Sender()

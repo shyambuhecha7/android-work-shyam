@@ -37,7 +37,15 @@ class MyClass() : MyAbstractClass() {
         TODO("Not yet implemented")
     }
 }
+
+class Mobile(val modelNameOfMobile: String, val priceOfMobile: Int) {
+
+    constructor(name: String): this(name,1)
+
+}
 fun main() {
+    val mobile = Mobile("Shyam",10)
+    println(mobile.modelNameOfMobile)
     val listOfNumbers = listOf<Int>(12,2,14,23,65,44,45)
     println(listOfNumbers.fold(0) { acc: Int, i: Int -> acc + i })
     println(listOfNumbers.reduce { acc, i -> acc+i })
@@ -45,6 +53,7 @@ fun main() {
     println(listOfNumbers.map { it+3 })
     println(listOfNumbers.filter { it > 22 })
 
+    var s1 = listOf<Int>(1,2,11)
     val myClass = MyClass()
     myClass.sum2()
 
