@@ -12,6 +12,7 @@ fun main() {
     println(numbers.count())
 
     println(numbers.reduce { sum, number -> number + sum })
-    println()
+    println(numbers.fold(0){acc, i -> acc + i  })
+
 
 }

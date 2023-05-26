@@ -41,7 +41,28 @@ class
 
 sealed class Tcs : Tata
 
+
+sealed interface MissionStatus {
+   fun status()
+}
+sealed class Missions : MissionStatus
+    class Success(): Missions() {
+        override fun status() {
+            println("Success")
+        }
+    }
+
+    class Error(): Missions() {
+        override fun status() {
+            println("Error")
+        }
+    }
+
+
+
+
 fun main() {
+
 
 
 

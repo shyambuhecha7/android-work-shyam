@@ -75,7 +75,16 @@ enum class Color {
     abstract fun printValue()
 }
 
+//
+class Phone(var modelName: String,val prize: Int) {
+    constructor(model: String) : this(model,100000)
+}
+
+
 fun main() {
+    val phone = Phone("MI")
+    println(phone.modelName)
+    phone
     //abstract key in enum
     val color: Color = Color.RED
     color.printValue()
@@ -110,5 +119,14 @@ fun main() {
 
 
     var samObj = SAM { println("it is SAM") }
+
+
+    a@ for (j in 1..10) {
+        if(j % 5 == 0) {
+            break@a
+        }
+        println(" $j ")
+    }
+
 
 }
