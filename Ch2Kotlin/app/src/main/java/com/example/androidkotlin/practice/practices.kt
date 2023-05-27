@@ -43,7 +43,25 @@ class Mobile(val modelNameOfMobile: String, val priceOfMobile: Int) {
     constructor(name: String): this(name,1)
 
 }
+
+class  Outer {
+    open inner class InnerClass {
+        var collegeName: String = "GECR"
+        fun printCollegeName() {
+            println(collegeName)
+        }
+    }
+    inner class SubInnerClass: InnerClass() {
+        val branch: String = "CE"
+
+    }
+}
 fun main() {
+    val outer = Outer()
+    val subInnerClass = outer.SubInnerClass()
+    subInnerClass.collegeName = "GEC-Rajkot"
+    subInnerClass.printCollegeName()
+
     val mobile = Mobile("Shyam",10)
     println(mobile.modelNameOfMobile)
     val listOfNumbers = listOf<Int>(12,2,14,23,65,44,45)
