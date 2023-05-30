@@ -80,8 +80,22 @@ class Phone(var modelName: String,val prize: Int) {
     constructor(model: String) : this(model,100000)
 }
 
+interface Heat {
+    abstract fun heatLevel(temp: Float)
+}
+
+enum class Seasons(seasons: String): Heat {
+  Winter("winter") {
+      override fun heatLevel(temp: Float) {
+          println("Heat : $temp ")
+      }
+  }
+}
 
 fun main() {
+
+    Seasons.Winter.heatLevel(12.5f)
+
     val phone = Phone("MI")
     println(phone.modelName)
     phone

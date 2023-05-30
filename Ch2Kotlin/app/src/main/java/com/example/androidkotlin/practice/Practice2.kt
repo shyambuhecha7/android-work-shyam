@@ -65,8 +65,22 @@ enum class Calculator {
 
     abstract fun perform(a: Int, b: Int): Int
 }
+object Apple {
+    var name = "apple"
+}
 
 fun main() {
+    var obj = Apple
+    val obj2 = Apple
+    println(obj)
+    println(obj2)
+    obj2.name = "obj2"
+    println(obj.name)
+    var b = obj.name
+    b = "nameChange"
+    println(obj.name)
+    obj.name = "Bb"
+    println(b)
     val add = Calculator.ADD.perform(1,2)
     println(add)
 

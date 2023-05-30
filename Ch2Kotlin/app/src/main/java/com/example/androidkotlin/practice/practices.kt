@@ -45,19 +45,39 @@ class Mobile(val modelNameOfMobile: String, val priceOfMobile: Int) {
 }
 
 class  Outer {
+    infix fun square(value: Int): Int {
+        return value * value
+    }
+
     open inner class InnerClass {
         var collegeName: String = "GECR"
         fun printCollegeName() {
             println(collegeName)
         }
     }
-    inner class SubInnerClass: InnerClass() {
+
+    inner class SubInnerClass : InnerClass() {
         val branch: String = "CE"
 
     }
 }
+
+class FlowerPot(var nameOfFlower: String) {
+    var age: Int = 0
+}
 fun main() {
+    val flowerPot = FlowerPot("Rose")
+    println(flowerPot.nameOfFlower)
+     flowerPot.apply { this.nameOfFlower = "Lotus"
+     age = 10
+     println(age)
+     }
+
+    println(flowerPot.age)
+    println(flowerPot.nameOfFlower)
     val outer = Outer()
+
+    println(outer square 5)
     val subInnerClass = outer.SubInnerClass()
     subInnerClass.collegeName = "GEC-Rajkot"
     subInnerClass.printCollegeName()
@@ -75,4 +95,10 @@ fun main() {
     val myClass = MyClass()
     myClass.sum2()
 
+    println(10.unaryPlus())
+    println(10.unaryMinus())
+    println(12.inc())
+    println(12.dec())
+
 }
+
