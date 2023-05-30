@@ -13,6 +13,7 @@ class Destination {
         callBack(data)
     }
 }
+data class Person(val name: String, val age: Int)
 fun main() {
     val mutableList = mutableListOf(1,2,3,22,2,2,12)
     val set = mutableList.toSet()
@@ -35,4 +36,53 @@ fun main() {
     sequence.let { println(it.asSequence()) }
 
 
+    val numbers = listOf(1, 2, 3, 4, 5)
+    numbers.forEach { println(it) }
+
+    val squaredNumbers = numbers.map { it * it }
+    println(squaredNumbers)
+
+    val people = listOf(
+        Person("Alice", 25),
+        Person("Bob", 30),
+        Person("Charlie", 20)
+    )
+
+    val sortedPeople = people.sortedBy { it.age }
+    println(sortedPeople)
+
+    val sortedPeople1 = people.sortedWith(compareBy { it.age })
+    println(sortedPeople1)
+
+    val foundNumber = numbers.find { it > 3 }
+    println(foundNumber)
+
+    val hasEvenNumber = numbers.any { it % 2 == 0 }
+    println(hasEvenNumber)
+
+    val allPositive = numbers.all { it > 0 }
+    println(allPositive)
+
+    val flattenedNumbers = numbers.flatMap { listOf(it, it * 2) }
+    println(flattenedNumbers)
+
+    val takenNumbers = numbers.takeWhile { it < 4 }
+    println(takenNumbers)
+
+    val (evenNumbers, oddNumbers) = numbers.partition { it % 2 == 0 }
+    println(evenNumbers)
+    println(oddNumbers)
+
+    numbers.windowed(3) { window ->
+        println("Window: $window")
+    }
+
+    val sum = numbers.reduceOrNull { acc, value -> acc + value }
+    println(sum)
+
+    //invoke
+    val add: (Int, Int) -> Int = { a, b -> a + b }
+
+    val result = add.invoke(3, 4)
+    println(result)
 }
