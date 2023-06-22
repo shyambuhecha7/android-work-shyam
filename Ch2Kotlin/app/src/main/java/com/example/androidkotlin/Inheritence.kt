@@ -8,6 +8,8 @@ class Inheritence {
      */
 }
 fun main() {
+    val table = Table()
+    table.sit()
     //single
     val myCat = Cat("catty")
     myCat.makeSound()
@@ -190,7 +192,16 @@ class Override: OverrideProperty() {
     override var today: String = "Monday"
 
     val fillColor get() = super.todaySkyColor
+}
 
+open class Chair {
+    fun sit() {
+        println("Sit on chair")
+    }
+}
+
+class Table: Chair() {
 
 }
+
 

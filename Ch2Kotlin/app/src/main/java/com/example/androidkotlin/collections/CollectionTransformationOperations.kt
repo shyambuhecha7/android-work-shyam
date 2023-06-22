@@ -20,6 +20,7 @@ fun main() {
     println(numberMap.toList().unzip())
 
     //associate
+
     println(colors.associateWith { it.length })
     println(colors.associateBy { it.first().uppercaseChar() })
 

@@ -1,6 +1,7 @@
 package com.example.androidkotlin.collections
 
 fun main() {
+
     val list = mutableListOf<Int>(10,20,30,40)
     //
     list.add(1,100)

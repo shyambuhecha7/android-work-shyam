@@ -37,7 +37,7 @@ class Employee {
     }
 }
 
-class Student(var rollNumber: Int, var name: String, var stream: String, var college: String ) {
+class Student(var rollNumber: Int, var nameOfStudent: String, var stream: String, var college: String ) {
 
 
     init {
@@ -52,28 +52,33 @@ class Student(var rollNumber: Int, var name: String, var stream: String, var col
     }
 
 
-    constructor(name: String) : this(1, name,"", "") {
-      this.name = name
+    constructor(name: String) : this(1, "name","", "") {
+      this.nameOfStudent = name
     }
-
 }
 
-class Mobile() {
+class Mobile(val name: String,val version: String) {
 
-    constructor(model: String): this(){
+    constructor(name: String, v: Int) : this(name,"2")
+    constructor(model: String): this(model,"1"){
 
     }
 }
 
 fun main() {
+    val student = Student("a")
+    println(student.nameOfStudent)
     val firstEmployee = Employee("Raj")
     firstEmployee.employeeId
+
     println(firstEmployee.employeeId)
     println(firstEmployee.name)
 
-    var models = Mobile("name")
+    var models = Mobile("name of mobile")
+    println(models.name)
 
-    val model2 = Mobile()
+
+
 
     val lazyValue: Int by lazy { println("init");  10 }
 }

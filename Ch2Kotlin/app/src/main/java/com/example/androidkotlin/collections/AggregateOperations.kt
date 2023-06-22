@@ -14,5 +14,6 @@ fun main() {
     println(numbers.reduce { sum, number -> number + sum })
     println(numbers.fold(0){acc, i -> acc + i  })
 
+    println(numbers.associateWith { it to it+10 })
 
 }

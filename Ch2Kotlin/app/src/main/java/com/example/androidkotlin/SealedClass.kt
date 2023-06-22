@@ -24,6 +24,7 @@ class Multiplication(val number1: Int, val number2: Int) : Calculator()
 open class Calc {
 
 }
+
 //
 sealed interface Company
 
@@ -38,9 +39,7 @@ sealed interface SimformPvtLmt: Simform
 sealed class Titen: Tata
 
 class
-
 sealed class Tcs : Tata
-
 
 sealed interface MissionStatus {
    fun status()
@@ -57,16 +56,6 @@ sealed class Missions : MissionStatus
             println("Error")
         }
     }
-
-
-
-
-fun main() {
-
-
-
-
-}
 fun add(company: Company) {
 
     val result = when(company) {
@@ -75,4 +64,18 @@ fun add(company: Company) {
         is Tcs -> println("tata")
     }
 
+}
+
+
+sealed class Response(val mission: String) {
+    constructor() : this(" ")
+    private constructor(missionName: String,missionTime: Int): this(missionName) {}
+    class Success : Response("API")
+    class Failure : Response("API")
+
+}
+
+
+fun main() {
+val response = Success()
 }

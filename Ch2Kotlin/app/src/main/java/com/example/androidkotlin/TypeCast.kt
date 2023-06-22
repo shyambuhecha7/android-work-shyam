@@ -1,13 +1,12 @@
 package com.example.androidkotlin
 
-class TypeCase {
+class TypeCast {
 
     fun checkType(value: Any) {
         if (value is String) {
             println(value.length)
         }
     }
-
 }
 
 fun main() {
@@ -28,7 +27,7 @@ fun main() {
         println("it is string")
     }
 
-    var typeCaseObject = TypeCase()
+    var typeCaseObject = TypeCast()
     typeCaseObject.checkType("Shyam")
 
     if (strName !is String) return
@@ -39,6 +38,9 @@ fun main() {
 
     //unsafe cast operator
 
+    var signal : Any = true
+    var newSignal = signal as Boolean
+    println(newSignal)
 
 }
 
@@ -58,9 +60,8 @@ class Square : Shape {
     override fun calculateArea(): Double {
         return side * side
     }
-
-
 }
+
 
 
 

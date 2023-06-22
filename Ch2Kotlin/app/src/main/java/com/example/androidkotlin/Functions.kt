@@ -6,9 +6,6 @@ class Functions {
         return parameter
     }
 }
-
-
-
 fun functionswithOArameter(parameter1: String, parameter2: String, parameter3: String) {
 
 }

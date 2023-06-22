@@ -15,7 +15,10 @@ class ProfileModel(val name: String) {
 data class StudentProfile(val name: String,val surname: String, val city: String) {
 
 }
-data class Person1(val name: String, val age: Int) {
+open class A {
+
+}
+data class Person1(var name: String, val age: Int) {
 
 }
 
@@ -46,4 +49,5 @@ fun main() {
     //
     val person3 = Person1("Shyam",21)
     println(person1 === person3)
+
 }

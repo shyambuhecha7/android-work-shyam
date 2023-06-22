@@ -16,7 +16,7 @@ fun main() {
         var result = 10/0
         println(result)
     }catch (e : Throwable) {
-        println("Exeption is : $e")
+        println("Exception is : $e")
     }
 
     try {
@@ -30,7 +30,7 @@ fun main() {
 
     fun showError() {
         if(10<0) {
-            throw Exception("zero is not greter than 10")
+            throw Exception("zero is not greater than 10")
         }
 
     }

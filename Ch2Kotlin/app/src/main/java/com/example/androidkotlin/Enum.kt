@@ -1,8 +1,5 @@
 package com.example.androidkotlin
 
-class Emum {
-
-}
 enum class Pizza {
     SMALL, MEDIUM, LARGE
 }
