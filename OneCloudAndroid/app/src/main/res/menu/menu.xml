@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/chat"
+      android:icon="@drawable/icon1"
+      android:title="@string/chat"
+      />
+
+    <item android:id="@+id/meeting"
+        android:icon="@drawable/icon2"
+        android:title="@string/meeting"/>
+
+    <item android:id="@+id/call"
+        android:icon="@drawable/icon3"
+        android:title="@string/call"/>
+
+    <item android:id="@+id/fax"
+        android:icon="@drawable/icon4"
+        android:title="@string/fax"/>
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/icon5"
+        android:title="@string/profile"/>
+</menu>
