@@ -99,7 +99,7 @@
         </androidx.cardview.widget.CardView>
         <include
             android:id="@+id/item4"
-            layout="@layout/profile_item"
+            layout="@layout/profile_item2"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
@@ -111,7 +111,7 @@
 
         <include
             android:id="@+id/item5"
-            layout="@layout/profile_item"
+            layout="@layout/profile_item2"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
