@@ -7,10 +7,6 @@
         <variable
             name="title"
             type="String" />
-
-        <variable
-            name="description"
-            type="String" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -36,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:text="@{title}"
+            android:hint="@string/hint_title"
             android:textColor="#474747"
             android:textSize="14sp"
             android:textStyle="bold"

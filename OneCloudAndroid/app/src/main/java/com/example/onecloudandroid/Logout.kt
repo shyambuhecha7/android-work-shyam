@@ -1,7 +1,10 @@
 package com.example.onecloudandroid
 
+import android.app.StatusBarManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.ActionBar
 import androidx.databinding.DataBindingUtil
 import com.example.onecloudandroid.databinding.ActivityLogoutBinding
 
@@ -24,10 +27,8 @@ class Logout : AppCompatActivity() {
         binding.item3.description = "Generate Automatically"
 
         binding.item4.title = "Person Info"
-        binding.item4.description = ""
 
         binding.item5.title = "Help"
-        binding.item5.description = ""
 
     }
 }
