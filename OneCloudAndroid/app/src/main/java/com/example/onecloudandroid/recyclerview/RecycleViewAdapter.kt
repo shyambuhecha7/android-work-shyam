@@ -1,36 +1,36 @@
 package com.example.onecloudandroid.recyclerview
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import androidx.annotation.DrawableRes
+import androidx.core.content.ContextCompat
+import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Adapter
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.onecloudandroid.R
 import com.example.onecloudandroid.databinding.RecyclerItemBinding
 
-class RecycleViewAdapter(val list: MutableList<ItemData>) :
+class RecycleViewAdapter(val lists: MutableList<ItemData>) :
     RecyclerView.Adapter<RecycleViewAdapter.ViewHolder>() {
 
     class ViewHolder(private val binding: RecyclerItemBinding) : RecyclerView.ViewHolder(binding.root) {
       fun bind(data: ItemData) {
           binding.data = data
-          binding.executePendingBindings()
+
       }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder = ViewHolder(
-      RecyclerItemBinding.inflate( LayoutInflater.from(parent.context),parent,false)
+
+        RecyclerItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
     )
 
     override fun getItemCount(): Int {
-       return list.count()
+       return lists.count()
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-       holder.bind(data = list[position])
+        holder.bind(lists[position])
+
     }
-
-
 }
 

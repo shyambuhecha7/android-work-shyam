@@ -1,5 +1,10 @@
 package com.example.onecloudandroid.recyclerview
 
-import java.util.Stack
+data class ItemData(val itemTitle: String,
+val imgProfile: Int,
+val imgIconCall: Int,
+val imgCalendarIcon: Int,
+val callTime: String,
+val calenderDate:String
+)
 
-data class ItemData(val strTitle: String)
