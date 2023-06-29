@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:id="@+id/chat"
-      android:icon="@drawable/icon1"
-      android:title="@string/chat"
-      />
+    <item
+        android:id="@+id/chat_fragment"
+        android:icon="@drawable/icon1"
+        android:title="@string/chat" />
 
-    <item android:id="@+id/meeting"
+    <item
+        android:id="@+id/meeting_fragment"
+        android:enabled="true"
         android:icon="@drawable/icon2"
-        android:title="@string/meeting"/>
+        android:title="@string/meeting" />
 
-    <item android:id="@+id/call"
+    <item
+        android:id="@+id/call_fragment"
+        android:enabled="true"
         android:icon="@drawable/icon3"
-        android:title="@string/call"/>
+        android:title="@string/call" />
 
-    <item android:id="@+id/fax"
+    <item
+        android:id="@+id/fax_fragment"
         android:icon="@drawable/icon4"
+        android:enabled="true"
         android:title="@string/fax"/>
 
-    <item android:id="@+id/profile"
+    <item
+        android:id="@+id/profile_fragment"
         android:icon="@drawable/icon5"
-        android:title="@string/profile"/>
+        android:enabled="true"
+        android:title="@string/profile" />
 </menu>
