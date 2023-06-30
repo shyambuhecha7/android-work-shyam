@@ -5,13 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.FragmentManager
-import androidx.viewpager2.widget.ViewPager2
 import com.example.onecloudandroid.R
-import com.example.onecloudandroid.databinding.FragmentProfileBinding
-import com.example.onecloudandroid.tabbar.MyPagerAdapter
-import com.google.android.material.tabs.TabLayout
 
 class ProfileFragment : Fragment() {
 
