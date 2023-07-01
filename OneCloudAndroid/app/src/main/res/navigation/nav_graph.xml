@@ -8,27 +8,27 @@
     <fragment
         android:id="@+id/profile_fragment"
         android:name="com.example.onecloudandroid.fragments.ProfileFragment"
-        android:label="ProfileFragment"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile"
         />
     <fragment
         android:id="@+id/chat_fragment"
         android:name="com.example.onecloudandroid.fragments.ChatFragment"
-        android:label="ChatFragment"
+        android:label="Chat"
         tools:layout="@layout/fragment_chat"/>
     <fragment
         android:id="@+id/call_fragment"
         android:name="com.example.onecloudandroid.fragments.CallFragment"
-        android:label="fragment_call"
+        android:label="Call"
         tools:layout="@layout/fragment_call" />
     <fragment
         android:id="@+id/fax_fragment"
         android:name="com.example.onecloudandroid.fragments.FaxFragment"
-        android:label="fragment_fax"
+        android:label="Fax"
         tools:layout="@layout/fragment_fax" />
     <fragment
         android:id="@+id/meeting_fragment"
         android:name="com.example.onecloudandroid.fragments.MeetingFragment"
-        android:label="fragment_meeting"
+        android:label="Meeting"
         tools:layout="@layout/fragment_meeting" />
 </navigation>
