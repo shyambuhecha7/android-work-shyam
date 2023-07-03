@@ -13,11 +13,12 @@ class MyPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(
     override fun getItemCount(): Int {
         return 2
     }
+
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> FirstTabFragment()
             1 -> SecondTabFragment()
-            else -> FirstTabFragment()
+            else -> throw IllegalArgumentException("Invalid tab position")
         }
     }
 }

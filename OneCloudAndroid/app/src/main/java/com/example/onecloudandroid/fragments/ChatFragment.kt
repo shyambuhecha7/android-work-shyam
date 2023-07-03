@@ -16,32 +16,29 @@ import com.google.android.material.tabs.TabLayoutMediator
 
 
 class ChatFragment : Fragment() {
-    lateinit var binding: FragmentChatBinding
-    lateinit var adapter: MyPagerAdapter
+    private lateinit var tabLayout: TabLayout
+    private lateinit var viewPager: ViewPager2
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        binding =  DataBindingUtil.inflate(inflater,
-            R.layout.fragment_chat, container, false)
-        adapter = MyPagerAdapter(requireActivity())
-        return binding.root
-    }
+        val view = inflater.inflate(R.layout.fragment_chat, container, false)
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+        tabLayout = view.findViewById<TabLayout>(R.id.tabLayout)
+        viewPager = view.findViewById(R.id.viewPager)
 
+        val adapter = MyPagerAdapter(requireActivity())
+        viewPager.adapter = adapter
 
-
-        TabLayoutMediator(binding.tablayout,binding.viewpager2) {tab,postion ->
-
-            when(postion){
-                0 -> tab.text = "Home"
-                1 -> tab.text = "Call"
-                else -> tab.text = "Home"
+        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
+            when(position) {
+                0 -> tab.text = "Direct Message"
+                else -> tab.text = "Channels"
             }
-        }
+        }.attach()
+
+        return view
     }
 }
