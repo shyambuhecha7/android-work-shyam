@@ -16,7 +16,6 @@ class Logout : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_logout)
         setContentView(binding.root)
 
-
         binding.item1.title = "Status"
         binding.item1.description = "Available"
 

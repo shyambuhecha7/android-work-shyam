@@ -6,22 +6,39 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/screen_bg"
             tools:context=".recyclerview.RecycleViewActivity">
 
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/chat_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingStart="5dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="14dp"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@id/recycleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:menu="@menu/call_menu"
+                app:title="Call"
+                app:titleCentered="true" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                />
+                app:layout_constraintTop_toBottomOf="@id/chat_toolbar" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>

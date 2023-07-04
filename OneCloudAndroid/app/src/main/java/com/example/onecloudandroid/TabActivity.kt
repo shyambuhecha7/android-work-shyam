@@ -10,7 +10,6 @@ import com.google.android.material.tabs.TabLayoutMediator
 
 class TabActivity : AppCompatActivity() {
     lateinit var binding: ActivityTabBinding
-    lateinit var adapter: MyPagerAdapter
 
     lateinit var viewPager2: ViewPager2
     lateinit var tabLayout: TabLayout
@@ -18,7 +17,6 @@ class TabActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_tab)
         setContentView(binding.root)
-
 
         tabLayout = binding.tablayout
         viewPager2 = binding.viewpager2

@@ -19,8 +19,4 @@ class FaxFragment : Fragment() {
         return view
 
     }
-
-    companion object {
-
-    }
 }

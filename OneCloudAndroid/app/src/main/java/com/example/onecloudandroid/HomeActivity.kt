@@ -18,19 +18,19 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_home)
 
-
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navigationController = navHostFragment.navController
         binding.bottomNavigationView.setupWithNavController(navigationController)
 
-        navigationController.addOnDestinationChangedListener { controller, destination, arguments ->
-            val currentFragment = navHostFragment.childFragmentManager.primaryNavigationFragment
-            currentFragment?.let {
-//                binding.toolbar.menu.clear()
-//                binding.toolbar.inflateMenu(it)
-                binding.tbName.text = destination.label.toString()
-            }
-        }
+//        navigationController.addOnDestinationChangedListener { controller, destination, arguments ->
+//            val currentFragment = navHostFragment.childFragmentManager.primaryNavigationFragment
+//            currentFragment?.let {
+//
+//                binding.tbName.text = destination.label.toString()
+//
+//
+//            }
+//        }
     }
 }
