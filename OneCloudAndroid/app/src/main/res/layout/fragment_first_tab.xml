@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,70 +23,69 @@
             android:layout_width="211dp"
             android:layout_height="170dp"
             android:layout_marginStart="82dp"
-            android:layout_marginTop="155dp"
             android:layout_marginEnd="82dp"
+            android:layout_marginBottom="16dp"
             android:src="@drawable/chaticon1"
+            app:layout_constraintBottom_toTopOf="@+id/welcometext"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/welcometext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="61dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="61dp"
+            android:layout_marginBottom="16dp"
             android:text="Welcome to OneCloud"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/text2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/meetingImg" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/text2"
             android:layout_width="294dp"
             android:layout_height="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
+            android:layout_marginBottom="16dp"
             android:text="With unlimited voice and video calls, OneCloud is a great way to stay in touch."
             android:textAlignment="center"
-            android:layout_marginStart="40dp"
             android:textColor="#474747"
             android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/materialButton2"
             app:layout_constraintEnd_toEndOf="@id/welcometext"
-            app:layout_constraintStart_toStartOf="@id/welcometext"
-            app:layout_constraintTop_toBottomOf="@id/welcometext" />
+            app:layout_constraintStart_toStartOf="@id/welcometext" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="225dp"
             android:paddingStart="24dp"
             android:paddingTop="9dp"
             android:paddingEnd="24dp"
             android:paddingBottom="9dp"
             android:text="Start your first chat"
-            android:textSize="12sp"
             android:textAllCaps="false"
+            android:textSize="12sp"
             app:cornerRadius="8dp"
             app:icon="@drawable/message_text"
             app:iconSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/text2"
             app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="@id/text2"
-            app:layout_constraintTop_toBottomOf="@id/text2"
-            app:layout_constraintVertical_bias="0.026" />
+            app:layout_constraintStart_toStartOf="@id/text2" />
 
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="92dp"
             android:src="@drawable/editicon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

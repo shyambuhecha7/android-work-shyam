@@ -1,6 +1,7 @@
 package com.example.onecloudandroid
 
 import android.app.StatusBarManager
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -15,6 +16,14 @@ class Logout : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_logout)
         setContentView(binding.root)
+
+        val sharedPreference =  getSharedPreferences("loginData", Context.MODE_PRIVATE)
+        var editor = sharedPreference.edit()
+
+        binding.tvEmail.text = sharedPreference.getString("emailData","Guest")
+        var userName = binding.tvEmail.text.removeSuffix("@gmail.com").toString()
+        userName = "@$userName"
+        binding.profileName.text = userName
 
         binding.item1.title = "Status"
         binding.item1.description = "Available"

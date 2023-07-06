@@ -17,11 +17,7 @@
                 android:id="@+id/chat_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:paddingStart="5dp"
-                android:paddingTop="14dp"
-                android:paddingEnd="5dp"
-                android:paddingBottom="14dp"
+                android:background="#FFFFFF"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@id/recycleView"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -31,10 +27,12 @@
                 app:title="Call"
                 app:titleCentered="true" />
 
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="76dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

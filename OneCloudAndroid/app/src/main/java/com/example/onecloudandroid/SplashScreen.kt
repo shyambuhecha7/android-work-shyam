@@ -1,6 +1,8 @@
 package com.example.onecloudandroid
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -10,14 +12,25 @@ class SplashScreen : AppCompatActivity() {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
 
+
         splashScreen.setKeepOnScreenCondition { true }
         startSomeNextActivity()
         finish()
     }
 
     private fun startSomeNextActivity() {
-        val intent = Intent(this,HomeActivity::class.java)
-        startActivity(intent)
+
+        val sharedPreference =  getSharedPreferences("loginData", Context.MODE_PRIVATE)
+
+        if(sharedPreference.getString("emailData","Guest") != "Guest") {
+            val intent = Intent(this,HomeActivity::class.java)
+            startActivity(intent)
+        }else{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
     }
 }

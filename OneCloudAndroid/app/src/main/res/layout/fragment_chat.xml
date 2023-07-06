@@ -18,11 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:paddingStart="5dp"
-                android:paddingTop="14dp"
                 android:textSize="16sp"
-                android:paddingEnd="5dp"
-                android:paddingBottom="14dp"
                 app:layout_constraintBottom_toTopOf="@id/recycleView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -34,15 +30,15 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#ECEEF5"/>
+                android:background="#ECEEF5" />
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/white"
                 android:shadowDx="0"
                 android:shadowDy="3"
-                android:background="@color/white"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:tabSelectedTextColor="@color/icontintColor"
                 app:tabTextColor="@color/black" />
