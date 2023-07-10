@@ -13,13 +13,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/skyblue</item>
         <!-- Customize your theme here. -->
-
-
     </style>
 
-    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="android:windowSplashScreenBackground">@color/white</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splashscreenlogo</item>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen" >
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/sslogo</item>
         <item name="android:windowSplashScreenAnimationDuration">200</item>
         <item name="postSplashScreenTheme">@style/Theme.OneCloudAndroid</item>
     </style>

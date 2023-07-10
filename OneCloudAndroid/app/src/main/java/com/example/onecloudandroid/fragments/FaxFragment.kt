@@ -15,7 +15,6 @@ class FaxFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_fax, container, false)
-
         return view
 
     }

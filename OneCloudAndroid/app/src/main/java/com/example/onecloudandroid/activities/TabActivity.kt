@@ -1,9 +1,11 @@
-package com.example.onecloudandroid
+package com.example.onecloudandroid.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
+import com.example.onecloudandroid.adapters.MyPagerAdapter
+import com.example.onecloudandroid.R
 import com.example.onecloudandroid.databinding.ActivityTabBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator

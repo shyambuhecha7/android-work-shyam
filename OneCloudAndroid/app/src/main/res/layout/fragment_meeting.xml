@@ -14,7 +14,7 @@
         tools:context=".fragments.MeetingFragment">
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/chat_toolbar"
+            android:id="@+id/meeting_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -25,6 +25,15 @@
             app:menu="@menu/call_menu"
             app:title="Meeting"
             app:titleCentered="true" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ECEEF5"
+            app:layout_constraintStart_toStartOf="@id/meeting_toolbar"
+            app:layout_constraintTop_toBottomOf="@id/meeting_toolbar"
+            app:layout_constraintEnd_toEndOf="@id/meeting_toolbar"/>
 
         <ImageView
             android:id="@+id/meetingImg"

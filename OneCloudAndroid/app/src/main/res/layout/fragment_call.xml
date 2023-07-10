@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/screen_bg"
-            tools:context=".recyclerview.RecycleViewActivity">
+            tools:context=".activities.RecycleViewActivity">
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/chat_toolbar"
@@ -19,7 +19,6 @@
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@id/recycleView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -27,6 +26,14 @@
                 app:title="Call"
                 app:titleCentered="true" />
 
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ECEEF5"
+                app:layout_constraintStart_toStartOf="@id/chat_toolbar"
+                app:layout_constraintTop_toBottomOf="@id/chat_toolbar"
+                app:layout_constraintEnd_toEndOf="@id/chat_toolbar"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView"
@@ -34,11 +41,12 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="76dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/chat_toolbar"
+                android:layout_marginTop="55dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/chat_toolbar" />
+            />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
-
 </layout>

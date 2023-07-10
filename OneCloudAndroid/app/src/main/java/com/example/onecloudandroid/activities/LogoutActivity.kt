@@ -1,15 +1,13 @@
-package com.example.onecloudandroid
+package com.example.onecloudandroid.activities
 
-import android.app.StatusBarManager
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import androidx.appcompat.app.ActionBar
 import androidx.databinding.DataBindingUtil
+import com.example.onecloudandroid.R
 import com.example.onecloudandroid.databinding.ActivityLogoutBinding
 
-class Logout : AppCompatActivity() {
+class LogoutActivity : AppCompatActivity() {
     lateinit var binding : ActivityLogoutBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +35,5 @@ class Logout : AppCompatActivity() {
         binding.item4.title = "Person Info"
 
         binding.item5.title = "Help"
-
     }
 }

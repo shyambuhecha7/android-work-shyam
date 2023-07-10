@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/screen_bg"
-        tools:context=".Logout">
+        tools:context=".activities.LogoutActivity">
 
         <include
             android:id="@+id/toolbar"
@@ -47,11 +47,11 @@
         <TextView
             android:id="@+id/tvEmail"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
             android:layout_marginEnd="20dp"
             android:textAlignment="center"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
             android:textColor="@color/profileEmailColor"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@id/profileName"
@@ -183,7 +183,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/container2" />
 
-
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
@@ -197,7 +196,5 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:menu="@menu/menu" />
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

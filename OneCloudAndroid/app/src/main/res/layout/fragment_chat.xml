@@ -19,18 +19,16 @@
                 android:layout_height="wrap_content"
                 android:background="@color/white"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@id/recycleView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:menu="@menu/chat_menu"
                 app:title="Chat"
                 app:titleCentered="true" />
 
             <View
+                android:id="@+id/view"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#ECEEF5" />
+                android:background="#ECEEF5"
+                />
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
