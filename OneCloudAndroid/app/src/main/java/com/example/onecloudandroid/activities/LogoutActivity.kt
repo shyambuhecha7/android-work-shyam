@@ -1,5 +1,6 @@
 package com.example.onecloudandroid.activities
 
+import android.app.Activity
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +8,7 @@ import androidx.databinding.DataBindingUtil
 import com.example.onecloudandroid.R
 import com.example.onecloudandroid.databinding.ActivityLogoutBinding
 
-class LogoutActivity : AppCompatActivity() {
+class LogoutActivity : Activity() {
     lateinit var binding : ActivityLogoutBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -9,6 +9,18 @@
         android:background="@color/screen_bg"
         tools:context=".activities.LogoutActivity">
 
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <include
             android:id="@+id/toolbar"
             layout="@layout/toolbar"
