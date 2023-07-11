@@ -1,4 +1,4 @@
-package com.example.androidwebservices.network
+package com.example.androidwebservices.marsnetwork
 
 import com.google.gson.annotations.SerializedName
 
