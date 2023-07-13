@@ -1,6 +1,5 @@
-package com.example.androidwebservices.newsapi.model
+package com.example.androidwebservices.newsapi.model.get
 
-import android.net.wifi.hotspot2.pps.Credential.CertificateCredential
 import android.widget.ImageView
 import androidx.core.net.toUri
 import androidx.databinding.BindingAdapter

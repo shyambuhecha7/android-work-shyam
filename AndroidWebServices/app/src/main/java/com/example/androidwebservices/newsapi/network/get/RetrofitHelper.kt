@@ -1,9 +1,7 @@
-package com.example.androidwebservices.newsapi.network
+package com.example.androidwebservices.newsapi.network.get
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.scalars.ScalarsConverterFactory
-import retrofit2.create
 
 const val baseUrl = "https://newsapi.org/"
 

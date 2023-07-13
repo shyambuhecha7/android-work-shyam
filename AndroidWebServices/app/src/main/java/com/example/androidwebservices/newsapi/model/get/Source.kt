@@ -1,4 +1,4 @@
-package com.example.androidwebservices.newsapi.model
+package com.example.androidwebservices.newsapi.model.get
 
 data class Source(
     val id: String,
