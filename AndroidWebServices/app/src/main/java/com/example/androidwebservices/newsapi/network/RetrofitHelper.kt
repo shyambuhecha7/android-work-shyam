@@ -2,14 +2,13 @@ package com.example.androidwebservices.newsapi.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.create
 
-object RetrofitHelper {
-    val BASE_URL = "https://newsapi.org/v2/"
+const val baseUrl = "https://newsapi.org/"
 
-    fun getRetrofitInstance(): Retrofit {
-        return Retrofit.Builder().baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create()).build()
-            .create()
-    }
-}
+val retrofit = Retrofit.Builder()
+    .addConverterFactory(GsonConverterFactory.create())
+    .baseUrl(baseUrl)
+    .build()
+    .create(NewsService::class.java)
