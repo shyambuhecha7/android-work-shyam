@@ -7,7 +7,6 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface PostApiService {
-
     @POST("register")
     suspend fun register(@Body registerRequestModel: PostRequestModel) : Response<PostResponseModel>
 }
