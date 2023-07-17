@@ -9,6 +9,6 @@ interface NewsService {
     suspend fun getNews() : Response<NewsList>
 
     @GET("v2/top-headlines?country=us&category=business&apiKey=c5a974d6ae66438b8d8ea823cfa26549")
-    fun getNewsTopHeadline(): Response<NewsList>
+    suspend fun getNewsTopHeadline(): Response<NewsList>
 
 }

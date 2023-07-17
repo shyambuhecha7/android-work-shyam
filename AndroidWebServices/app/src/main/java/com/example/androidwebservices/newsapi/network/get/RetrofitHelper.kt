@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 const val baseUrl = "https://newsapi.org/"
 
-val retrofit = Retrofit.Builder()
+val retrofit: NewsService = Retrofit.Builder()
     .addConverterFactory(GsonConverterFactory.create())
     .baseUrl(baseUrl)
     .build()
