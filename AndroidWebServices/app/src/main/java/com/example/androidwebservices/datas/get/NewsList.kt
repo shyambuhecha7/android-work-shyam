@@ -1,4 +1,4 @@
-package com.example.androidwebservices.data.get
+package com.example.androidwebservices.datas.get
 
 data class NewsList(
     val articles: List<Article>,

@@ -1,4 +1,4 @@
-package com.example.androidwebservices.data.get
+package com.example.androidwebservices.datas.get
 
 import android.widget.ImageView
 import androidx.core.net.toUri

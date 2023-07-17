@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidwebservices.databinding.NewsItemBinding
-import com.example.androidwebservices.data.get.Article
+import com.example.androidwebservices.datas.get.Article
 
 class MyRVAdapter(private val list: List<Article>): RecyclerView.Adapter<MyRVAdapter.ViewHolder>() {
 

@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
         <variable
             name="data"
-            type="com.example.androidwebservices.data.get.Article" />
+            type="com.example.androidwebservices.datas.get.Article" />
     </data>
 
     <com.google.android.material.card.MaterialCardView
