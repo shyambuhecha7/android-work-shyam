@@ -1,4 +1,4 @@
-package com.example.androidwebservices.newsapi.network.get
+package com.example.androidwebservices.utils.get
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

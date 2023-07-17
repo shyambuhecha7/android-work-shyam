@@ -1,4 +1,4 @@
-package com.example.androidwebservices.newsapi.model.post
+package com.example.androidwebservices.data.post
 
 data class PostResponseModel(
     val id: Int,

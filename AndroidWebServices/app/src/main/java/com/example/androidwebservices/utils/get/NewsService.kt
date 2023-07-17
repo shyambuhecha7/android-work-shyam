@@ -1,6 +1,6 @@
-package com.example.androidwebservices.newsapi.network.get
+package com.example.androidwebservices.utils.get
 
-import com.example.androidwebservices.newsapi.model.get.NewsList
+import com.example.androidwebservices.data.get.NewsList
 import retrofit2.Response
 import retrofit2.http.GET
 

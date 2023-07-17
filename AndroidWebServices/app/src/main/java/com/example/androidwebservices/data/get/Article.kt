@@ -1,4 +1,4 @@
-package com.example.androidwebservices.newsapi.model.get
+package com.example.androidwebservices.data.get
 
 import android.widget.ImageView
 import androidx.core.net.toUri

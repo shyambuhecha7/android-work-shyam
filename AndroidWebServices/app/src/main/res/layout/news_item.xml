@@ -6,7 +6,7 @@
 
         <variable
             name="data"
-            type="com.example.androidwebservices.newsapi.model.get.Article" />
+            type="com.example.androidwebservices.data.get.Article" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

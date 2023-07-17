@@ -1,4 +1,4 @@
-package com.example.androidwebservices.mvvm.viewmodel
+package com.example.androidwebservices.viewmodel
 
 import androidx.lifecycle.ViewModel
 

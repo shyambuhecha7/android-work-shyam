@@ -5,7 +5,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PostActivity">
+    tools:context=".ui.PostActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:hint="id:"
+        android:hint= "@string/id"
         android:textColor="#42F153"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -93,6 +93,23 @@
         app:layout_constraintStart_toStartOf="@+id/tvId"
         app:layout_constraintTop_toBottomOf="@id/tvId"
         app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="monospace"
+        android:text="@string/register_form"
+        android:textAllCaps="true"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/emailLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

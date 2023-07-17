@@ -1,4 +1,4 @@
-package com.example.androidwebservices.okhttp
+package com.example.androidwebservices.utils.okhttp
 
 import okhttp3.Interceptor
 import okhttp3.Response
