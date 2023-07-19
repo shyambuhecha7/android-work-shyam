@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1651d795-19f8-4f64-8694-ff641334db41" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatelliteImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/ClassAndObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/DataClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Extension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Lamda.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Practice/Practice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Launch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchRocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/LaunchSatelite.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/Rocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketControllerInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/RocketStatus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/LaunchSatellite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2Kotlin/app/src/main/java/com/example/ch2kotlin/Rocket/SateliteLaunch/Satellite.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2P0E0l1M9ejynlk6t5riySmKSJx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1651d795-19f8-4f64-8694-ff641334db41" name="Changes" comment="" />
+      <created>1682585378129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682585378129</updated>
+    </task>
+    <servers />
+  </component>
+</project>
