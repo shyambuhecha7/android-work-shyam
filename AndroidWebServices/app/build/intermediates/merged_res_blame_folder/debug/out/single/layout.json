@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-mergeDebugResources-40:/layout/news_item.xml",
+        "source": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-main-43:/layout/news_item.xml"
+    },
+    {
+        "merged": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-mergeDebugResources-40:/layout/activity_counter.xml",
+        "source": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-main-43:/layout/activity_counter.xml"
+    },
+    {
+        "merged": "com.example.androidwebservices.app-mergeDebugResources-40:/layout/news_item.xml",
+        "source": "com.example.androidwebservices.app-main-43:/layout/news_item.xml"
+    },
+    {
+        "merged": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-mergeDebugResources-40:/layout/activity_post.xml",
+        "source": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-main-43:/layout/activity_post.xml"
+    },
+    {
+        "merged": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "/Users/shyam/.gradle/daemon/8.0/com.example.androidwebservices.app-main-43:/layout/activity_main.xml"
+    }
+]

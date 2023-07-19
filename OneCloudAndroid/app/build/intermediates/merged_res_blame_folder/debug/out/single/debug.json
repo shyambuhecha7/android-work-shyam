@@ -1,0 +1,370 @@
+[
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_icon1.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/icon1.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_activity_recycle_view.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/activity_recycle_view.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_photo.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/photo.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar5.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar5.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_profile_item3.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/profile_item3.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_toolbar.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_call.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_call.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_activity_logout.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_icon5.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/icon5.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar1.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar1.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_applelogo.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/applelogo.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_meeting.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_meeting.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/menu_profile_menu.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/menu/profile_menu.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_hidden.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/hidden.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_orangecall.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/orangecall.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_activity_tab.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/activity_tab.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/menu_meeting_menu.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/menu/meeting_menu.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/menu_menu.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_top_curve_shape.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/top_curve_shape.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_fax.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_fax.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_second_tab.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_second_tab.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_eclips.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/eclips.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_demo.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/demo.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_google.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_icon4.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/icon4.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar6.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar6.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_profile_item2.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/profile_item2.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_microsoft.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/microsoft.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_threedot.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/threedot.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_profile_item.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/profile_item.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_login_curve.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/login_curve.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_call.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/call.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar3.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar3.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/navigation_nav_graph.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_onecloud.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/onecloud.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_icon3.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/icon3.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_activity_home.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_iconmeeting.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/iconmeeting.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar7.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar7.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_logout.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/logout.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_voicemail.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/voicemail.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_mettingicon.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/mettingicon.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_chat.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_icon2.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/icon2.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar4.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar4.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_circleimg.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/circleimg.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_search.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_leftarr.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/leftarr.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_support.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/support.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar2.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar2.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_calendar.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/calendar.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_message_text.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/message_text.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_search_icon.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/search_icon.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/menu_call_menu.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/menu/call_menu.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_chaticon1.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/chaticon1.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_i1.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/i1.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_profile.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_chat_toolbar.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/chat_toolbar.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/menu_chat_menu.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/menu/chat_menu.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar_1.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar_1.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_greencall.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/greencall.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_fragment_first_tab.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/fragment_first_tab.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_itemcall.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/itemcall.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_avatar8.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/avatar8.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_meetingadd.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/meetingadd.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_sslogo.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/sslogo.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable_setting.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable/setting.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/layout_recycler_item.xml.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/layout/recycler_item.xml"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_right_arr.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/right_arr.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_splashscreenlogo.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/splashscreenlogo.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_editicon.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/editicon.png"
+    },
+    {
+        "merged": "com.example.onecloudandroid.app-merged_res-52:/drawable-v24_scheduleicon.png.flat",
+        "source": "com.example.onecloudandroid.app-main-54:/drawable-v24/scheduleicon.png"
+    }
+]

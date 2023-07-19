@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_0">0</string>
+    <string name="add">add</string>
+    <string name="app_name">AndroidWebServices</string>
+    <string name="description">description</string>
+    <string name="id">Id : </string>
+    <string name="pistol">pistol</string>
+    <string name="plus">+</string>
+    <string name="register_form">Register Form</string>
+    <string name="submit">Submit</string>
+    <string name="title">title</string>
+    <string name="token">Token</string>
+    <string name="tv_token">Token : </string>
+    <style name="Base.Theme.AndroidWebServices" parent="Theme.Material3.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AndroidWebServices" parent="Base.Theme.AndroidWebServices"/>
+</resources>
